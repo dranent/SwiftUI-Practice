@@ -33,6 +33,8 @@
 		09A39DD02BA54276008C6D59 /* MyCustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A39DCF2BA54276008C6D59 /* MyCustomTabView.swift */; };
 		09A39DD42BA6E26E008C6D59 /* MyButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A39DD32BA6E26D008C6D59 /* MyButtonStyle.swift */; };
 		09A39DD62BA6E7EE008C6D59 /* MyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A39DD52BA6E7EE008C6D59 /* MyTextField.swift */; };
+		09A39DDB2BA6F569008C6D59 /* ToastPopupTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A39DDA2BA6F569008C6D59 /* ToastPopupTutorial.swift */; };
+		09A39DDE2BA6F662008C6D59 /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = 09A39DDD2BA6F662008C6D59 /* PopupView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +85,7 @@
 		09A39DCF2BA54276008C6D59 /* MyCustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomTabView.swift; sourceTree = "<group>"; };
 		09A39DD32BA6E26D008C6D59 /* MyButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyButtonStyle.swift; sourceTree = "<group>"; };
 		09A39DD52BA6E7EE008C6D59 /* MyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTextField.swift; sourceTree = "<group>"; };
+		09A39DDA2BA6F569008C6D59 /* ToastPopupTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastPopupTutorial.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09A39DDE2BA6F662008C6D59 /* PopupView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +153,7 @@
 				09A39DCF2BA54276008C6D59 /* MyCustomTabView.swift */,
 				09A39DCD2BA53D59008C6D59 /* MyView.swift */,
 				09A39DC92BA43450008C6D59 /* MyGeometryReader.swift */,
+				09A39DDA2BA6F569008C6D59 /* ToastPopupTutorial.swift */,
 				09A39DB72BA2F25F008C6D59 /* MyTextTutorial.swift */,
 				09A39DB42BA2E35D008C6D59 /* WebView.swift */,
 				09A39DB22BA2D7B7008C6D59 /* MyTextView.swift */,
@@ -202,6 +207,9 @@
 			dependencies = (
 			);
 			name = CoupleNotes00;
+			packageProductDependencies = (
+				09A39DDD2BA6F662008C6D59 /* PopupView */,
+			);
 			productName = CoupleNotes00;
 			productReference = 09A39D7E2BA2B51F008C6D59 /* CoupleNotes00.app */;
 			productType = "com.apple.product-type.application";
@@ -274,6 +282,9 @@
 				Base,
 			);
 			mainGroup = 09A39D752BA2B51F008C6D59;
+			packageReferences = (
+				09A39DDC2BA6F662008C6D59 /* XCRemoteSwiftPackageReference "PopupView" */,
+			);
 			productRefGroup = 09A39D7F2BA2B51F008C6D59 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -320,6 +331,7 @@
 				09A39DBA2BA30647008C6D59 /* CircleImageView.swift in Sources */,
 				09A39D842BA2B51F008C6D59 /* ContentView.swift in Sources */,
 				09A39D822BA2B51F008C6D59 /* CoupleNotes00App.swift in Sources */,
+				09A39DDB2BA6F569008C6D59 /* ToastPopupTutorial.swift in Sources */,
 				09A39DC42BA40D9F008C6D59 /* MyList.swift in Sources */,
 				09A39DD42BA6E26E008C6D59 /* MyButtonStyle.swift in Sources */,
 				09A39DC02BA4060B008C6D59 /* SubContentView.swift in Sources */,
@@ -678,6 +690,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		09A39DDC2BA6F662008C6D59 /* XCRemoteSwiftPackageReference "PopupView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/PopupView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		09A39DDD2BA6F662008C6D59 /* PopupView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 09A39DDC2BA6F662008C6D59 /* XCRemoteSwiftPackageReference "PopupView" */;
+			productName = PopupView;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		09A39D8C2BA2B523008C6D59 /* CoupleNotes00.xcdatamodeld */ = {
