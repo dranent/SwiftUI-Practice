@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0991834D2BAD43330013A898 /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = 0991834C2BAD43330013A898 /* PopupView */; };
 		09A39D822BA2B51F008C6D59 /* CoupleNotes00App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A39D812BA2B51F008C6D59 /* CoupleNotes00App.swift */; };
 		09A39D842BA2B51F008C6D59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A39D832BA2B51F008C6D59 /* ContentView.swift */; };
 		09A39D862BA2B523008C6D59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09A39D852BA2B523008C6D59 /* Assets.xcassets */; };
@@ -34,7 +35,6 @@
 		09A39DD42BA6E26E008C6D59 /* MyButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A39DD32BA6E26D008C6D59 /* MyButtonStyle.swift */; };
 		09A39DD62BA6E7EE008C6D59 /* MyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A39DD52BA6E7EE008C6D59 /* MyTextField.swift */; };
 		09A39DDB2BA6F569008C6D59 /* ToastPopupTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A39DDA2BA6F569008C6D59 /* ToastPopupTutorial.swift */; };
-		09A39DDE2BA6F662008C6D59 /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = 09A39DDD2BA6F662008C6D59 /* PopupView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,7 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09A39DDE2BA6F662008C6D59 /* PopupView in Frameworks */,
+				0991834D2BAD43330013A898 /* PopupView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +208,7 @@
 			);
 			name = CoupleNotes00;
 			packageProductDependencies = (
-				09A39DDD2BA6F662008C6D59 /* PopupView */,
+				0991834C2BAD43330013A898 /* PopupView */,
 			);
 			productName = CoupleNotes00;
 			productReference = 09A39D7E2BA2B51F008C6D59 /* CoupleNotes00.app */;
@@ -283,7 +283,7 @@
 			);
 			mainGroup = 09A39D752BA2B51F008C6D59;
 			packageReferences = (
-				09A39DDC2BA6F662008C6D59 /* XCRemoteSwiftPackageReference "PopupView" */,
+				0991834B2BAD43330013A898 /* XCRemoteSwiftPackageReference "PopupView" */,
 			);
 			productRefGroup = 09A39D7F2BA2B51F008C6D59 /* Products */;
 			projectDirPath = "";
@@ -692,7 +692,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		09A39DDC2BA6F662008C6D59 /* XCRemoteSwiftPackageReference "PopupView" */ = {
+		0991834B2BAD43330013A898 /* XCRemoteSwiftPackageReference "PopupView" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/exyte/PopupView.git";
 			requirement = {
@@ -703,9 +703,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		09A39DDD2BA6F662008C6D59 /* PopupView */ = {
+		0991834C2BAD43330013A898 /* PopupView */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 09A39DDC2BA6F662008C6D59 /* XCRemoteSwiftPackageReference "PopupView" */;
+			package = 0991834B2BAD43330013A898 /* XCRemoteSwiftPackageReference "PopupView" */;
 			productName = PopupView;
 		};
 /* End XCSwiftPackageProductDependency section */
