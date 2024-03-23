@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0900401D2BAD474C00FBD35C /* LazyVGridTutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0900401C2BAD474C00FBD35C /* LazyVGridTutorial.swift */; };
+		0900401F2BAE9C3000FBD35C /* SegmentLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0900401E2BAE9C3000FBD35C /* SegmentLayoutView.swift */; };
 		0991834D2BAD43330013A898 /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = 0991834C2BAD43330013A898 /* PopupView */; };
 		09A39D822BA2B51F008C6D59 /* CoupleNotes00App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A39D812BA2B51F008C6D59 /* CoupleNotes00App.swift */; };
 		09A39D842BA2B51F008C6D59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A39D832BA2B51F008C6D59 /* ContentView.swift */; };
@@ -55,6 +57,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0900401C2BAD474C00FBD35C /* LazyVGridTutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridTutorial.swift; sourceTree = "<group>"; };
+		0900401E2BAE9C3000FBD35C /* SegmentLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentLayoutView.swift; sourceTree = "<group>"; };
 		09A39D7E2BA2B51F008C6D59 /* CoupleNotes00.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoupleNotes00.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09A39D812BA2B51F008C6D59 /* CoupleNotes00App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoupleNotes00App.swift; sourceTree = "<group>"; };
 		09A39D832BA2B51F008C6D59 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -151,6 +155,8 @@
 				09A39DC32BA40D9E008C6D59 /* MyList.swift */,
 				09A39DCB2BA53B0D008C6D59 /* MyTabView.swift */,
 				09A39DCF2BA54276008C6D59 /* MyCustomTabView.swift */,
+				0900401C2BAD474C00FBD35C /* LazyVGridTutorial.swift */,
+				0900401E2BAE9C3000FBD35C /* SegmentLayoutView.swift */,
 				09A39DCD2BA53D59008C6D59 /* MyView.swift */,
 				09A39DC92BA43450008C6D59 /* MyGeometryReader.swift */,
 				09A39DDA2BA6F569008C6D59 /* ToastPopupTutorial.swift */,
@@ -333,6 +339,7 @@
 				09A39D822BA2B51F008C6D59 /* CoupleNotes00App.swift in Sources */,
 				09A39DDB2BA6F569008C6D59 /* ToastPopupTutorial.swift in Sources */,
 				09A39DC42BA40D9F008C6D59 /* MyList.swift in Sources */,
+				0900401F2BAE9C3000FBD35C /* SegmentLayoutView.swift in Sources */,
 				09A39DD42BA6E26E008C6D59 /* MyButtonStyle.swift in Sources */,
 				09A39DC02BA4060B008C6D59 /* SubContentView.swift in Sources */,
 				09A39DB12BA2C302008C6D59 /* MyVstackView.swift in Sources */,
@@ -348,6 +355,7 @@
 				09A39DBC2BA40073008C6D59 /* MyProjectCard.swift in Sources */,
 				09A39DB82BA2F25F008C6D59 /* MyTextTutorial.swift in Sources */,
 				09A39DB32BA2D7B7008C6D59 /* MyTextView.swift in Sources */,
+				0900401D2BAD474C00FBD35C /* LazyVGridTutorial.swift in Sources */,
 				09A39DC22BA4097F008C6D59 /* MyCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
