@@ -49,8 +49,6 @@ struct MyCustomTabView: View {
             return  0
         case .profile:
             return  geometry.size.width / 3
-        default:
-            return -(geometry.size.width / 3)
         }
     }
     
