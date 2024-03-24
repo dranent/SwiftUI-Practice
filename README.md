@@ -8,7 +8,7 @@ XCODE Version : Version 15.3 (15E204a)
 
 パッケージ導入管理ツール : Swift Package Manager  
 
-外部ライブラリー : PopupView
+外部ライブラリー : PopupView, URLImage, Alamofire
 
 
 ## 学習した部分
@@ -39,3 +39,14 @@ Menu
 
 LazyVStack
 
+Alamofire
+
+UrlImage
+
+ObservableObject
+
+ObservedObject
+
+Combine
+
+Published
