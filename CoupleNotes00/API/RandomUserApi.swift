@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import SwiftUIIntrospect
 
 struct RandomUserApi: View {
     
@@ -13,14 +14,13 @@ struct RandomUserApi: View {
     
     var body: some View {
         
+        
+        
         List(randomUserViewModel.randomUsers) { aRandomUser in
             RandomUserRowView(aRandomUser)
             
         }
         
-//        List(0...100, id: \.self) { index in
-//            RandomUserRowView()
-//        }
     }
 }
 

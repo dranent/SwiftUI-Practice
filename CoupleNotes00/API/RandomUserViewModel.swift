@@ -18,7 +18,7 @@ class RandomUserViewModel: ObservableObject {
     
     func fetchRandomUsers(){
         print(#fileID, #function, #line, "")
-        AF.request(baseUrl)
+        AF.request(RandomUserRouter.getUsers())
             .publishDecodable(type: RandomUserResponse.self)
             .compactMap{ $0.value }
             .map{ $0.results }
